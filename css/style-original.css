@@ -68,13 +68,15 @@ a{
 }
 footer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     grid-template-areas: 
-    "h2 h2 imagenes imagenes"
-    "h2 h2 imagenes imagenes"
-    "p p p p"
+    "h2 h2 img"
+    "h2 h2 img"
+    "p p p"
     ;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: rgb(52, 143, 112);
     }
