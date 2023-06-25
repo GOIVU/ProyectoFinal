@@ -294,17 +294,22 @@ h1:hover{
         height: 3rem;
     }
     .ul-main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-image: url(../assets/icons8-menú-64.png);
+        display: none;
+        /* flex-direction: column;
+        justify-content: center; */
     }
     .li{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+    .menu{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        background-repeat: no-repeat;
+    }
+
 
 }
 @media (max-width: 426px){
